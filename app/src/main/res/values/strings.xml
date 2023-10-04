@@ -5,4 +5,5 @@
     <string name="activity_main_entrar">Entrar</string>
     <string name="activity_main_esqueci">Esqueci a senha.</string>
     <string name="activity_main_registrar">Registrar-se</string>
+    <string name="activity_main_cadastrarEquipamento">Cadastrar Novo Equipamento</string>
 </resources>
