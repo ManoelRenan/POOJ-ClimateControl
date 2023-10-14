@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context=".TelaDosDispositivos">
+
+    <TextView
+        android:id="@+id/iconeUsuario"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:background="@drawable/ic_user"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="4dp"
+        android:text="Nome do Usuário"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toEndOf="@id/iconeUsuario"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteY="39dp" />
+
+    <ImageView
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/ic_add"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.625"
+        app:layout_constraintStart_toEndOf="@+id/textView4"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/PrimeiroEquipamento"
+        android:text="Split Midea - Quarto"
+        style="@style/Edit_Text"
+        android:drawableRight="@drawable/ic_delete"
+        tools:layout_editor_absoluteX="31dp"
+        tools:layout_editor_absoluteY="159dp"
+        tools:ignore="MissingConstraints" />
+    <EditText
+        style="@style/Edit_Text"
+        android:text="Split Eletrolux - Sala"
+        android:drawableRight="@drawable/ic_delete"
+        app:layout_constraintTop_toBottomOf="@id/PrimeiroEquipamento"
+        tools:layout_editor_absoluteX="31dp"
+        tools:layout_editor_absoluteY="159dp"
+        tools:ignore="MissingConstraints" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
