@@ -6,4 +6,5 @@
     <string name="activity_main_esqueci">Esqueci a senha.</string>
     <string name="activity_main_registrar">Registrar-se</string>
     <string name="activity_main_cadastrarEquipamento">Cadastrar Novo Equipamento</string>
+    <string name="activity_main_falha_autenticacao">Usuário ou senha inválido!</string>
 </resources>

@@ -68,7 +68,7 @@
         />
 
     <androidx.appcompat.widget.AppCompatButton
-        android:id="@+id/bt_entrar"
+        android:id="@+id/btn_entrar"
         style="@style/Button"
         android:text="@string/activity_main_entrar"
         app:layout_constraintStart_toStartOf="parent"
